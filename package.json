@@ -1,0 +1,8 @@
+{
+  "name": "finapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Andreferraz20/FinAPI",
+  "author": "Andre Ferraz",
+  "license": "MIT"
+}
