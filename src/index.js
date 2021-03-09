@@ -8,6 +8,7 @@ app.use(express.json());
 
 const customers = [];
 
+//Middlewares
 function verifyIfExistsAccountCPF(request, response, next) {
     const { cpf } = request.headers;
     const customer = customers.find(customer => customer.cpf === cpf);
